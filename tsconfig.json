@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "types": ["node", "pg"],
+    "target": "es2020",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "isolatedModules": true
+  },
+  "include": ["src/**/*.ts", "tests/**/*.ts", "dotenv/config", ".env"],
+  "exclude": ["node_modules"]
+}
